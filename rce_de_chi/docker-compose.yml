@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  rce-de-chi:
+    container_name: rce-de-chi
+    image: rce-de-chi
+    build:
+      context: .
+    ports:
+      - 1337:5000
